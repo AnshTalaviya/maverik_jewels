@@ -1,0 +1,86 @@
+
+
+
+
+[
+  {
+    "id": 1,
+    "category": "rings",
+    "title": "Cushion Cut Diamond Ring",
+    "brand": "MJ JEWELLERY",
+    "price": "51,915.23",
+    "discount": "35% OFF",
+    "imageFront": "images/onee.jpg",
+    "imageBack": "images/onee.jpg"
+  },
+  {
+    "id": 2,
+    "category": "rings",
+    "title": "Oval Shape Wedding Ring",
+    "brand": "MJ JEWELLERY",
+    "price": "89,475.21",
+    "discount": "35% OFF",
+     "imageFront": "images/twoo.jpg",
+    "imageBack": "images/twoo.jpg"
+  },
+  {
+    "id": 3,
+    "category": "bracelets",
+    "title": "Gold Chain Bracelet",
+    "brand": "MJ JEWELLERY",
+    "price": "12,899.00",
+    "discount": "25% OFF",
+     "imageFront": "images/three.jpg",
+    "imageBack": "images/three.jpg"
+  },
+  {
+    "id": 4,
+    "category": "bracelets",
+    "title": "Diamond Tennis Bracelet",
+    "brand": "MJ JEWELLERY",
+    "price": "18,499.99",
+    "discount": "20% OFF",
+    "imageFront": "images/four.jpg",
+    "imageBack": "images/four.jpg"
+  },
+  {
+    "id": 5,
+    "category": "necklaces",
+    "title": "Classic Pearl Necklace",
+    "brand": "MJ JEWELLERY",
+    "price": "10,299.49",
+    "discount": "15% OFF",
+     "imageFront": "images/five.jpg",
+    "imageBack": "images/five.jpg"
+  },
+  {
+    "id": 6,
+    "category": "necklaces",
+    "title": "Sapphire Pendant Necklace",
+    "brand": "MJ JEWELLERY",
+    "price": "22,145.00",
+    "discount": "30% OFF",
+     "imageFront": "images/sixx.jpg",
+    "imageBack": "images/sixx.jpg"
+  },
+  {
+    "id": 7,
+    "category": "earrings",
+    "title": "Diamond Stud Earrings",
+    "brand": "MJ JEWELLERY",
+    "price": "8,775.60",
+    "discount": "10% OFF",
+     "imageFront": "https://sgjewellery.com/cdn/shop/files/0S3A1664.png?v=1727951822&width=533",
+    "imageBack": "https://sgjewellery.com/cdn/shop/files/0S3A0693.png?v=1744622319&width=533"
+  },
+  {
+    "id": 8,
+    "category": "earrings",
+    "title": "Emerald Drop Earrings",
+    "brand": "MJ JEWELLERY",
+    "price": "15,340.75",
+    "discount": "18% OFF",
+    "imageFront": "https://sgjewellery.com/cdn/shop/files/0S3A1664.png?v=1727951822&width=533",
+    "imageBack": "https://sgjewellery.com/cdn/shop/files/0S3A0693.png?v=1744622319&width=533"
+  }
+]
