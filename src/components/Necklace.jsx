@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Necklace = () => {
   const navigate = useNavigate();
   const handleSeeMore = () => {
-    navigate('/NecklacePage');
+    navigate('/collection?category=necklaces');
   };
 
   return (

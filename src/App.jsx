@@ -7,36 +7,54 @@ import Contact from './pages/Contact';
 import ViewAllJewellary from './pages/ViewAllJewellary';
 import Footer from './components/Footer';
 import ChatBubble from './components/ChatBubble';
-import RingPage from './pages/RingPage';
-import NecklacePage from './pages/NecklacePage';
 import RingSizeGuide from './pages/RingSizeGuide';
-import EaringsPage from './pages/EaringsPage';
-  
+import FilterProducts from './components/FilterProducts';
+import SingleProduct from './components/SingleProduct';
+import { useState,useEffect } from 'react';
+import Loader from './components/Loader';
+import BackToTopButton from './components/BackToTopButton';
 
 function App() {
-
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    // Simulate loading delay (e.g. fetching data)
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <>
-  
-      <Header_ad />
-      <Header />
 
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/viewAllJewellary" element={<ViewAllJewellary />} />
-        <Route path="/ringpage" element={<RingPage />} />
-        <Route path="/necklacepage" element={<NecklacePage />} />
-        <Route path="/earringspage" element={<EaringsPage />} />
-        <Route path="/ring-guide" element={<RingSizeGuide />} />
+      {loading ? (
+        <Loader/>
+      ) : (
+        <div className="p-0">
+
+          <Header_ad />
+          <Header />
 
 
-        <Route path="/contact" element={<Contact />} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/viewAllJewellary" element={<ViewAllJewellary />} />
+            <Route path="/ring-guide" element={<RingSizeGuide />} />
+            <Route path="/collection" element={<FilterProducts />} />
+            <Route path="/product/:id" element={<SingleProduct />} />
+            {/* <Route path="/filterProduct/:category" element={<FilterProducts />} /> */}
 
-      </Routes>
-      <Footer/>
-      <ChatBubble/>
+
+
+            <Route path="/contact" element={<Contact />} />
+
+          </Routes>
+          <Footer />
+          <ChatBubble />
+          <BackToTopButton />
+
+        </div>
+      )}
+
 
     </>
   )

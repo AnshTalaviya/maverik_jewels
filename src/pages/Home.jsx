@@ -9,8 +9,9 @@ import Ring from '../components/Ring'
 import Necklace from '../components/Necklace'
 import Earing from '../components/Earing'
 import Guide from '../components/Guide'
-import InstagramSlider from '../components/InstagramSlider'
 import InstagramContent from '../components/InstagramContent'
+import ReviewSlider from '../components/ReviewSlider'
+import CategorySection from '../components/CategorySection'
 
 const Home = () => {
   const navigate = useNavigate();
@@ -21,8 +22,9 @@ const Home = () => {
   // Animation
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 2000,
       once: true,
+      delay: 2000, 
     });
   }, []);
 
@@ -34,13 +36,16 @@ const Home = () => {
       <div className='mt-9 mx-auto  text-center'>
         <h1 className='text-4xl ' data-aos="fade-up">Mj Jewellery</h1>
 
-        <p className='text-center text-textGreyColor py-6 m-auto w-1/2' >Welcome to the fascinating world of lab-grown diamonds! These stunning gems offer a captivating alternative to natural diamonds, combining the timeless beauty of traditional diamonds with an innovative and sustainable approach to jewellery</p>
+        <p data-aos="fade-up" className='text-center text-textGreyColor py-6 m-auto w-1/2' >Welcome to the fascinating world of lab-grown diamonds! These stunning gems offer a captivating alternative to natural diamonds, combining the timeless beauty of traditional diamonds with an innovative and sustainable approach to jewellery</p>
+      </div>
+      <div>
+        <CategorySection/>
       </div>
 
-      <div>
+      <div  data-aos="fade-up">
 
         <Collection />
-        <ViewAll onClick={handleViewAllClick} />
+        <ViewAll  onClick={handleViewAllClick}  />
       </div>
 
       <div>
@@ -60,6 +65,9 @@ const Home = () => {
       </div>
       <div>
         <InstagramContent/>
+      </div>
+      <div>
+        <ReviewSlider/>
       </div>
 
     </div>

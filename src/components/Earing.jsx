@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Earing = () => {
   const navigate = useNavigate();
   const handleSeeMore = () => {
-    navigate('/EaringsPage');
+    navigate('/collection?category=earrings');
   };
 
   return (

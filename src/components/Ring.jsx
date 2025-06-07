@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Ring = () => {
   const navigate = useNavigate();
   const handleSeeMore = () => {
-    navigate('/RingPage');
+    navigate('/collection?category=rings');
   };
 
   return (
@@ -15,7 +15,7 @@ const Ring = () => {
         <img 
           src="https://sgjewellery.com/cdn/shop/files/02_65fe24d4-0374-41bf-a703-b194ade34e2a.jpg?v=1685002546&width=1070" 
           alt="Ring on Finger" 
-          className="rounded-lg  h-auto  shadow-lg" 
+          className="rounded-lg  h-auto  shadow-lg  transition-transform duration-700 transform group-hover:scale-110" 
         />
       </div>
 

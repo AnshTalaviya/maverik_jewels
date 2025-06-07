@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import logo from '../../public/images/Maverick_Jewels.png';
+import logo from '../../public/images/Maverickk_Jewels.png';
 import { ChevronDownIcon } from '@heroicons/react/24/solid';
-import { Link } from "react-router-dom";
-import FilterProducts from "./FilterProducts";
+import { Link, useNavigate } from "react-router-dom";
 import {
     FiSearch,
     FiUser,
@@ -18,9 +17,22 @@ const Header = () => {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 
+    const [allProducts, setAllProducts] = useState([]);
+    const [searchTerm, setSearchTerm] = useState("");
+    const [filteredProducts, setFilteredProducts] = useState([]);
+    const [filteredCategories, setFilteredCategories] = useState([]);
+
+    const navigate = useNavigate();
+
+
     const toggleDrawer = () => setIsDrawerOpen(!isDrawerOpen);
     const openSearch = () => setIsSearchOpen(true);
-    const closeSearch = () => setIsSearchOpen(false);
+    const closeSearch = () => {
+
+        setIsSearchOpen(false);
+        setSearchTerm("");
+
+    }
 
     useEffect(() => {
         const handleScroll = () => {
@@ -29,6 +41,38 @@ const Header = () => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
+
+
+    useEffect(() => {
+        fetch('/jewellers.json')
+            .then(res => res.json())
+            .then(data => setAllProducts(data))
+            .catch(err => console.error("Failed to fetch product data", err));
+    }, []);
+    useEffect(() => {
+        const term = searchTerm.toLowerCase();
+
+        const productMatches = allProducts.filter(product =>
+            // product.name.toLowerCase().includes(term) ||  // <-- this line
+            product.category.toLowerCase().includes(term)
+        );
+
+
+        const categoryMatches = [
+            ...new Set(
+                allProducts
+                    .filter(product =>
+                        product.category && product.category.toLowerCase().includes(term)
+                    )
+                    .map(p => p.category)
+            )
+        ];
+
+        setFilteredProducts(productMatches.slice(0, 10));
+        setFilteredCategories(categoryMatches);
+    }, [searchTerm, allProducts]);
+
+
 
     return (
         <>
@@ -42,9 +86,9 @@ const Header = () => {
                             </Link>
                         </div>
 
-                        {/* Navigation */}
                         <nav className="hidden md:flex space-x-8 items-center">
                             <Link to="/" className="hover:text-dark-800 hover:font-bold hover:underline">Home</Link>
+                            <Link to="/about" className="hover:text-dark-500 hover:font-bold hover:underline">About</Link>
 
                             <div className="relative group"
                                 onMouseEnter={() => setIsProductOpen(true)}
@@ -63,7 +107,6 @@ const Header = () => {
                                 )}
                             </div>
 
-                            <Link to="/about" className="hover:text-dark-500 hover:font-bold hover:underline">About</Link>
                             <Link to="/contact" className="hover:text-dark-500 hover:font-bold hover:underline">Contact</Link>
                         </nav>
 
@@ -79,7 +122,6 @@ const Header = () => {
                         </div>
                     </div>
 
-                    {/* Mobile Drawer */}
                     {isDrawerOpen && (
                         <div className="md:hidden bg-white shadow-md px-4 pt-4 pb-6 space-y-4">
                             <Link to="/" className="block hover:text-dark-500 hover:font-bold">Home</Link>
@@ -101,16 +143,62 @@ const Header = () => {
 
             {/* Search Modal */}
             {isSearchOpen && (
-                <div className="fixed inset-0 bg-white z-50 flex flex-col items-center p-4">
-                    <button className="absolute top-4 right-4 text-3xl text-gray-600" onClick={closeSearch}>
-                        <FiX />
-                    </button>
-                    <h2 className="text-xl mb-4 font-semibold text-gray-700">Search Products</h2>
-                    <input
-                        type="text"
-                        placeholder="Type to search..."
-                        className="w-full max-w-md p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
-                    />
+                <div className="fixed inset-0 bg-white z-50 overflow-y-auto">
+                    <div className="px-4 py-6 max-w-4xl mx-auto">
+                        <div className="relative flex items-center border rounded-md px-4 py-2">
+                            <input
+                                type="text"
+                                placeholder="Search"
+                                className="flex-grow outline-none text-lg font-medium"
+                                value={searchTerm}
+                                onChange={e => setSearchTerm(e.target.value)}
+                            />
+                            <FiSearch className="text-xl text-gray-600 ml-2" />
+                            <button
+                                onClick={closeSearch}
+                                className="ml-4 text-xl text-gray-800 hover:text-red-500"
+                            >
+                                <FiX />
+                            </button>
+                        </div>
+
+                        <div className="grid grid-cols-3 md:grid-cols-6 gap-2 p-6 border-b font-semibold text-gray-600 text-sm uppercase tracking-wider">
+                            <div className="col-span-2">Suggestions</div>
+                            <div className="col-span-4">Products</div>
+                        </div>
+
+                        <div className="grid grid-cols-3 md:grid-cols-6 gap-4 px-6 py-4">
+                            {/* Suggestions */}
+                            <div className="col-span-2 space-y-2">
+                                {filteredCategories.map((cat, index) => (
+                                    <div
+                                        key={index}
+                                        className="cursor-pointer hover:underline text-base"
+                                        onClick={() => setSearchTerm(cat)}
+                                    >
+                                        {cat}
+                                    </div>
+                                ))}
+                            </div>
+
+                            {/* Product Results */}
+                            <div className="col-span-4 space-y-3">
+                                {filteredProducts.map(product => (
+                                    <div
+                                        key={product.id}
+                                        className="flex items-center gap-4 p-2 hover:bg-gray-100 rounded cursor-pointer"
+                                        onClick={() => {
+                                            closeSearch();
+                                            navigate(`/product/${product.id}`);
+                                        }}
+                                    >
+                                        <img src={product.imageFront} alt={product.title} className="w-10 h-10 object-contain" />
+                                        <span className="text-sm">{product.title}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             )}
         </>

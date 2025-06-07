@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState,useEffect } from 'react';
 import Jewellary_Card from '../components/Jewellary_Card';
-import FilterProducts from '../components/FilterProducts';
+// import FilterProducts from '../components/FilterProducts';
 
 const ViewAllJewellary = () => {
     const [products, setProducts] = useState([]);
@@ -22,11 +22,11 @@ const ViewAllJewellary = () => {
                 {/* Product list here */}
             </div>
             <div className="flex flex-wrap justify-center gap-6 p-6">
-                {/* {products.map((product) => (
+                {products.map((product) => (
                     <Jewellary_Card key={product.id} product={product} />
-                ))} */}
+                ))}
 
-                <FilterProducts products={products} />
+                {/* <FilterProducts products={products} /> */}
 
             </div>
 

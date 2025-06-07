@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="border-t pt-5 pb-10 text-center text-xs text-gray-500">
+            {/* <div className="border-t pt-5 pb-10 text-center text-xs text-gray-500">
                 <div className="flex justify-center gap-2 mb-4">
                     <img className="h-8" src="https://img.icons8.com/color/48/amex.png" alt="amex" />
                     <img className="h-8" src="https://img.icons8.com/color/48/mastercard-logo.png" alt="mastercard" />
@@ -86,7 +86,7 @@ const Footer = () => {
                     <Link to='/' className="hover:text-pink-400">Shipping policy</Link> &nbsp;·&nbsp;
                     <Link to='/' className="hover:text-pink-400">Contact information</Link>
                 </p>
-            </div>
+            </div> */}
         </footer>
     );
 };
