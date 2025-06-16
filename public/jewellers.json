@@ -1,86 +1,1694 @@
-
-
-
-
 [
   {
     "id": 1,
-    "category": "rings",
-    "title": "Cushion Cut Diamond Ring",
+    "category": "earrings",
+    "title": "Earring Design 1",
     "brand": "MJ JEWELLERY",
-    "price": "51,915.23",
-    "discount": "35% OFF",
-    "imageFront": "images/onee.jpg",
-    "imageBack": "images/onee.jpg"
+    "price": "72,087.62",
+    "discount": "30% OFF",
+    "imageFront": "images/earrings/e1.jpg"
   },
   {
     "id": 2,
-    "category": "rings",
-    "title": "Oval Shape Wedding Ring",
+    "category": "earrings",
+    "title": "Earring Design 2",
     "brand": "MJ JEWELLERY",
-    "price": "89,475.21",
+    "price": "43,568.36",
     "discount": "35% OFF",
-     "imageFront": "images/twoo.jpg",
-    "imageBack": "images/twoo.jpg"
+    "imageFront": "images/earrings/e2.jpg"
   },
   {
     "id": 3,
-    "category": "bracelets",
-    "title": "Gold Chain Bracelet",
+    "category": "earrings",
+    "title": "Earring Design 3",
     "brand": "MJ JEWELLERY",
-    "price": "12,899.00",
-    "discount": "25% OFF",
-     "imageFront": "images/three.jpg",
-    "imageBack": "images/three.jpg"
+    "price": "24,570.34",
+    "discount": "10% OFF",
+    "imageFront": "images/earrings/e3.jpg"
   },
   {
     "id": 4,
-    "category": "bracelets",
-    "title": "Diamond Tennis Bracelet",
+    "category": "earrings",
+    "title": "Earring Design 4",
     "brand": "MJ JEWELLERY",
-    "price": "18,499.99",
-    "discount": "20% OFF",
-    "imageFront": "images/four.jpg",
-    "imageBack": "images/four.jpg"
+    "price": "56,580.16",
+    "discount": "30% OFF",
+    "imageFront": "images/earrings/e4.jpg"
   },
   {
     "id": 5,
-    "category": "necklaces",
-    "title": "Classic Pearl Necklace",
+    "category": "earrings",
+    "title": "Earring Design 5",
     "brand": "MJ JEWELLERY",
-    "price": "10,299.49",
-    "discount": "15% OFF",
-     "imageFront": "images/five.jpg",
-    "imageBack": "images/five.jpg"
+    "price": "20,242.77",
+    "discount": "10% OFF",
+    "imageFront": "images/earrings/e5.jpg"
   },
   {
     "id": 6,
-    "category": "necklaces",
-    "title": "Sapphire Pendant Necklace",
+    "category": "earrings",
+    "title": "Earring Design 6",
     "brand": "MJ JEWELLERY",
-    "price": "22,145.00",
-    "discount": "30% OFF",
-     "imageFront": "images/sixx.jpg",
-    "imageBack": "images/sixx.jpg"
+    "price": "25,311.58",
+    "discount": "10% OFF",
+    "imageFront": "images/earrings/e6.jpg"
   },
   {
     "id": 7,
     "category": "earrings",
-    "title": "Diamond Stud Earrings",
+    "title": "Earring Design 7",
     "brand": "MJ JEWELLERY",
-    "price": "8,775.60",
+    "price": "83,809.78",
     "discount": "10% OFF",
-     "imageFront": "https://sgjewellery.com/cdn/shop/files/0S3A1664.png?v=1727951822&width=533",
-    "imageBack": "https://sgjewellery.com/cdn/shop/files/0S3A0693.png?v=1744622319&width=533"
+    "imageFront": "images/earrings/e7.jpg"
   },
   {
     "id": 8,
     "category": "earrings",
-    "title": "Emerald Drop Earrings",
+    "title": "Earring Design 8",
     "brand": "MJ JEWELLERY",
-    "price": "15,340.75",
-    "discount": "18% OFF",
-    "imageFront": "https://sgjewellery.com/cdn/shop/files/0S3A1664.png?v=1727951822&width=533",
-    "imageBack": "https://sgjewellery.com/cdn/shop/files/0S3A0693.png?v=1744622319&width=533"
+    "price": "57,015.35",
+    "discount": "25% OFF",
+    "imageFront": "images/earrings/e8.jpg"
+  },
+  {
+    "id": 9,
+    "category": "earrings",
+    "title": "Earring Design 9",
+    "brand": "MJ JEWELLERY",
+    "price": "61,940.63",
+    "discount": "15% OFF",
+    "imageFront": "images/earrings/e9.jpg"
+  },
+  {
+    "id": 10,
+    "category": "earrings",
+    "title": "Earring Design 10",
+    "brand": "MJ JEWELLERY",
+    "price": "22,318.36",
+    "discount": "25% OFF",
+    "imageFront": "images/earrings/e10.jpg"
+  },
+  {
+    "id": 11,
+    "category": "earrings",
+    "title": "Earring Design 11",
+    "brand": "MJ JEWELLERY",
+    "price": "81,285.42",
+    "discount": "15% OFF",
+    "imageFront": "images/earrings/e11.jpg"
+  },
+  {
+    "id": 12,
+    "category": "earrings",
+    "title": "Earring Design 12",
+    "brand": "MJ JEWELLERY",
+    "price": "46,811.96",
+    "discount": "35% OFF",
+    "imageFront": "images/earrings/e12.jpg"
+  },
+  {
+    "id": 13,
+    "category": "earrings",
+    "title": "Earring Design 13",
+    "brand": "MJ JEWELLERY",
+    "price": "61,461.09",
+    "discount": "25% OFF",
+    "imageFront": "images/earrings/e13.jpg"
+  },
+  {
+    "id": 14,
+    "category": "earrings",
+    "title": "Earring Design 14",
+    "brand": "MJ JEWELLERY",
+    "price": "50,623.25",
+    "discount": "35% OFF",
+    "imageFront": "images/earrings/e14.jpg"
+  },
+  {
+    "id": 15,
+    "category": "earrings",
+    "title": "Earring Design 15",
+    "brand": "MJ JEWELLERY",
+    "price": "71,251.09",
+    "discount": "35% OFF",
+    "imageFront": "images/earrings/e15.jpg"
+  },
+  {
+    "id": 16,
+    "category": "earrings",
+    "title": "Earring Design 16",
+    "brand": "MJ JEWELLERY",
+    "price": "50,412.25",
+    "discount": "30% OFF",
+    "imageFront": "images/earrings/e16.jpg"
+  },
+  {
+    "id": 17,
+    "category": "earrings",
+    "title": "Earring Design 17",
+    "brand": "MJ JEWELLERY",
+    "price": "22,291.92",
+    "discount": "15% OFF",
+    "imageFront": "images/earrings/e17.jpg"
+  },
+  {
+    "id": 18,
+    "category": "earrings",
+    "title": "Earring Design 18",
+    "brand": "MJ JEWELLERY",
+    "price": "60,928.14",
+    "discount": "35% OFF",
+    "imageFront": "images/earrings/e18.jpg"
+  },
+  {
+    "id": 19,
+    "category": "earrings",
+    "title": "Earring Design 19",
+    "brand": "MJ JEWELLERY",
+    "price": "49,404.14",
+    "discount": "10% OFF",
+    "imageFront": "images/earrings/e19.jpg"
+  },
+  {
+    "id": 20,
+    "category": "earrings",
+    "title": "Earring Design 20",
+    "brand": "MJ JEWELLERY",
+    "price": "33,069.19",
+    "discount": "35% OFF",
+    "imageFront": "images/earrings/e20.jpg"
+  },
+  {
+    "id": 21,
+    "category": "earrings",
+    "title": "Earring Design 21",
+    "brand": "MJ JEWELLERY",
+    "price": "69,900.63",
+    "discount": "30% OFF",
+    "imageFront": "images/earrings/e21.jpg"
+  },
+  {
+    "id": 22,
+    "category": "earrings",
+    "title": "Earring Design 22",
+    "brand": "MJ JEWELLERY",
+    "price": "13,752.75",
+    "discount": "10% OFF",
+    "imageFront": "images/earrings/e22.jpg"
+  },
+  {
+    "id": 23,
+    "category": "earrings",
+    "title": "Earring Design 23",
+    "brand": "MJ JEWELLERY",
+    "price": "43,480.17",
+    "discount": "20% OFF",
+    "imageFront": "images/earrings/e23.jpg"
+  },
+  {
+    "id": 24,
+    "category": "earrings",
+    "title": "Earring Design 24",
+    "brand": "MJ JEWELLERY",
+    "price": "72,530.15",
+    "discount": "25% OFF",
+    "imageFront": "images/earrings/e24.jpg"
+  },
+  {
+    "id": 25,
+    "category": "earrings",
+    "title": "Earring Design 25",
+    "brand": "MJ JEWELLERY",
+    "price": "93,692.41",
+    "discount": "30% OFF",
+    "imageFront": "images/earrings/e25.jpg"
+  },
+  {
+    "id": 26,
+    "category": "earrings",
+    "title": "Earring Design 26",
+    "brand": "MJ JEWELLERY",
+    "price": "35,195.53",
+    "discount": "15% OFF",
+    "imageFront": "images/earrings/e26.jpg"
+  },
+  {
+    "id": 27,
+    "category": "earrings",
+    "title": "Earring Design 27",
+    "brand": "MJ JEWELLERY",
+    "price": "58,163.09",
+    "discount": "35% OFF",
+    "imageFront": "images/earrings/e27.jpg"
+  },
+  {
+    "id": 28,
+    "category": "earrings",
+    "title": "Earring Design 28",
+    "brand": "MJ JEWELLERY",
+    "price": "74,690.55",
+    "discount": "30% OFF",
+    "imageFront": "images/earrings/e28.jpg"
+  },
+  {
+    "id": 29,
+    "category": "earrings",
+    "title": "Earring Design 29",
+    "brand": "MJ JEWELLERY",
+    "price": "31,204.24",
+    "discount": "35% OFF",
+    "imageFront": "images/earrings/e29.jpg"
+  },
+  {
+    "id": 30,
+    "category": "earrings",
+    "title": "Earring Design 30",
+    "brand": "MJ JEWELLERY",
+    "price": "10,612.49",
+    "discount": "25% OFF",
+    "imageFront": "images/earrings/e30.jpg"
+  },
+  {
+    "id": 31,
+    "category": "earrings",
+    "title": "Earring Design 31",
+    "brand": "MJ JEWELLERY",
+    "price": "62,794.49",
+    "discount": "30% OFF",
+    "imageFront": "images/earrings/e31.jpg"
+  },
+  {
+    "id": 32,
+    "category": "earrings",
+    "title": "Earring Design 32",
+    "brand": "MJ JEWELLERY",
+    "price": "86,178.86",
+    "discount": "20% OFF",
+    "imageFront": "images/earrings/e32.jpg"
+  },
+  {
+    "id": 33,
+    "category": "earrings",
+    "title": "Earring Design 33",
+    "brand": "MJ JEWELLERY",
+    "price": "47,171.75",
+    "discount": "30% OFF",
+    "imageFront": "images/earrings/e33.jpg"
+  },
+  {
+    "id": 34,
+    "category": "earrings",
+    "title": "Earring Design 34",
+    "brand": "MJ JEWELLERY",
+    "price": "57,922.70",
+    "discount": "10% OFF",
+    "imageFront": "images/earrings/e34.jpg"
+  },
+  {
+    "id": 35,
+    "category": "earrings",
+    "title": "Earring Design 35",
+    "brand": "MJ JEWELLERY",
+    "price": "89,492.06",
+    "discount": "20% OFF",
+    "imageFront": "images/earrings/e35.jpg"
+  },
+  {
+    "id": 36,
+    "category": "earrings",
+    "title": "Earring Design 36",
+    "brand": "MJ JEWELLERY",
+    "price": "64,939.94",
+    "discount": "20% OFF",
+    "imageFront": "images/earrings/e36.jpg"
+  },
+  {
+    "id": 37,
+    "category": "earrings",
+    "title": "Earring Design 37",
+    "brand": "MJ JEWELLERY",
+    "price": "92,994.21",
+    "discount": "35% OFF",
+    "imageFront": "images/earrings/e37.jpg"
+  },
+  {
+    "id": 38,
+    "category": "earrings",
+    "title": "Earring Design 38",
+    "brand": "MJ JEWELLERY",
+    "price": "49,760.63",
+    "discount": "25% OFF",
+    "imageFront": "images/earrings/e38.jpg"
+  },
+  {
+    "id": 39,
+    "category": "earrings",
+    "title": "Earring Design 39",
+    "brand": "MJ JEWELLERY",
+    "price": "34,644.67",
+    "discount": "25% OFF",
+    "imageFront": "images/earrings/e39.jpg"
+  },
+  {
+    "id": 40,
+    "category": "earrings",
+    "title": "Earring Design 40",
+    "brand": "MJ JEWELLERY",
+    "price": "67,377.20",
+    "discount": "35% OFF",
+    "imageFront": "images/earrings/e40.jpg"
+  },
+  {
+    "id": 41,
+    "category": "earrings",
+    "title": "Earring Design 41",
+    "brand": "MJ JEWELLERY",
+    "price": "66,139.23",
+    "discount": "15% OFF",
+    "imageFront": "images/earrings/e41.jpg"
+  },
+  {
+    "id": 42,
+    "category": "earrings",
+    "title": "Earring Design 42",
+    "brand": "MJ JEWELLERY",
+    "price": "78,218.47",
+    "discount": "35% OFF",
+    "imageFront": "images/earrings/e42.jpg"
+  },
+  {
+    "id": 43,
+    "category": "earrings",
+    "title": "Earring Design 43",
+    "brand": "MJ JEWELLERY",
+    "price": "62,235.24",
+    "discount": "25% OFF",
+    "imageFront": "images/earrings/e43.jpg"
+  },
+  {
+    "id": 44,
+    "category": "earrings",
+    "title": "Earring Design 44",
+    "brand": "MJ JEWELLERY",
+    "price": "62,072.74",
+    "discount": "10% OFF",
+    "imageFront": "images/earrings/e44.jpg"
+  },
+  {
+    "id": 45,
+    "category": "earrings",
+    "title": "Earring Design 45",
+    "brand": "MJ JEWELLERY",
+    "price": "75,312.00",
+    "discount": "15% OFF",
+    "imageFront": "images/earrings/e45.jpg"
+  },
+  {
+    "id": 46,
+    "category": "earrings",
+    "title": "Earring Design 46",
+    "brand": "MJ JEWELLERY",
+    "price": "92,709.56",
+    "discount": "20% OFF",
+    "imageFront": "images/earrings/e46.jpg"
+  },
+  {
+    "id": 47,
+    "category": "earrings",
+    "title": "Earring Design 47",
+    "brand": "MJ JEWELLERY",
+    "price": "81,790.45",
+    "discount": "25% OFF",
+    "imageFront": "images/earrings/e47.jpg"
+  },
+  {
+    "id": 48,
+    "category": "rings",
+    "title": "Ring Design 1",
+    "brand": "MJ JEWELLERY",
+    "price": "51,762.51",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r1.jpg"
+  },
+  {
+    "id": 49,
+    "category": "rings",
+    "title": "Ring Design 2",
+    "brand": "MJ JEWELLERY",
+    "price": "53,952.90",
+    "discount": "25% OFF",
+    "imageFront": "images/rings/r2.jpg"
+  },
+  {
+    "id": 50,
+    "category": "rings",
+    "title": "Ring Design 3",
+    "brand": "MJ JEWELLERY",
+    "price": "38,560.87",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r3.jpg"
+  },
+  {
+    "id": 51,
+    "category": "rings",
+    "title": "Ring Design 4",
+    "brand": "MJ JEWELLERY",
+    "price": "26,277.93",
+    "discount": "15% OFF",
+    "imageFront": "images/rings/r4.jpg"
+  },
+  {
+    "id": 52,
+    "category": "rings",
+    "title": "Ring Design 5",
+    "brand": "MJ JEWELLERY",
+    "price": "86,408.30",
+    "discount": "10% OFF",
+    "imageFront": "images/rings/r5.jpg"
+  },
+  {
+    "id": 53,
+    "category": "rings",
+    "title": "Ring Design 6",
+    "brand": "MJ JEWELLERY",
+    "price": "12,356.67",
+    "discount": "25% OFF",
+    "imageFront": "images/rings/r6.jpg"
+  },
+  {
+    "id": 54,
+    "category": "rings",
+    "title": "Ring Design 7",
+    "brand": "MJ JEWELLERY",
+    "price": "87,010.31",
+    "discount": "30% OFF",
+    "imageFront": "images/rings/r7.jpg"
+  },
+  {
+    "id": 55,
+    "category": "rings",
+    "title": "Ring Design 8",
+    "brand": "MJ JEWELLERY",
+    "price": "40,402.51",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r8.jpg"
+  },
+  {
+    "id": 56,
+    "category": "rings",
+    "title": "Ring Design 9",
+    "brand": "MJ JEWELLERY",
+    "price": "31,678.26",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r9.jpg"
+  },
+  {
+    "id": 57,
+    "category": "rings",
+    "title": "Ring Design 10",
+    "brand": "MJ JEWELLERY",
+    "price": "88,458.23",
+    "discount": "10% OFF",
+    "imageFront": "images/rings/r10.jpg"
+  },
+  {
+    "id": 58,
+    "category": "rings",
+    "title": "Ring Design 11",
+    "brand": "MJ JEWELLERY",
+    "price": "94,602.84",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r11.jpg"
+  },
+  {
+    "id": 59,
+    "category": "rings",
+    "title": "Ring Design 12",
+    "brand": "MJ JEWELLERY",
+    "price": "37,498.51",
+    "discount": "30% OFF",
+    "imageFront": "images/rings/r12.jpg"
+  },
+  {
+    "id": 60,
+    "category": "rings",
+    "title": "Ring Design 13",
+    "brand": "MJ JEWELLERY",
+    "price": "35,447.50",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r13.jpg"
+  },
+  {
+    "id": 61,
+    "category": "rings",
+    "title": "Ring Design 14",
+    "brand": "MJ JEWELLERY",
+    "price": "93,762.11",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r14.jpg"
+  },
+  {
+    "id": 62,
+    "category": "rings",
+    "title": "Ring Design 15",
+    "brand": "MJ JEWELLERY",
+    "price": "16,317.77",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r15.jpg"
+  },
+  {
+    "id": 63,
+    "category": "rings",
+    "title": "Ring Design 16",
+    "brand": "MJ JEWELLERY",
+    "price": "35,436.31",
+    "discount": "25% OFF",
+    "imageFront": "images/rings/r16.jpg"
+  },
+  {
+    "id": 64,
+    "category": "rings",
+    "title": "Ring Design 17",
+    "brand": "MJ JEWELLERY",
+    "price": "15,620.67",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r17.jpg"
+  },
+  {
+    "id": 65,
+    "category": "rings",
+    "title": "Ring Design 18",
+    "brand": "MJ JEWELLERY",
+    "price": "62,150.21",
+    "discount": "15% OFF",
+    "imageFront": "images/rings/r18.jpg"
+  },
+  {
+    "id": 66,
+    "category": "rings",
+    "title": "Ring Design 19",
+    "brand": "MJ JEWELLERY",
+    "price": "43,523.96",
+    "discount": "10% OFF",
+    "imageFront": "images/rings/r19.jpg"
+  },
+  {
+    "id": 67,
+    "category": "rings",
+    "title": "Ring Design 20",
+    "brand": "MJ JEWELLERY",
+    "price": "27,241.04",
+    "discount": "15% OFF",
+    "imageFront": "images/rings/r20.jpg"
+  },
+  {
+    "id": 68,
+    "category": "rings",
+    "title": "Ring Design 21",
+    "brand": "MJ JEWELLERY",
+    "price": "70,829.28",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r21.jpg"
+  },
+  {
+    "id": 69,
+    "category": "rings",
+    "title": "Ring Design 22",
+    "brand": "MJ JEWELLERY",
+    "price": "33,193.95",
+    "discount": "25% OFF",
+    "imageFront": "images/rings/r22.jpg"
+  },
+  {
+    "id": 70,
+    "category": "rings",
+    "title": "Ring Design 23",
+    "brand": "MJ JEWELLERY",
+    "price": "58,265.99",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r23.jpg"
+  },
+  {
+    "id": 71,
+    "category": "rings",
+    "title": "Ring Design 24",
+    "brand": "MJ JEWELLERY",
+    "price": "76,325.70",
+    "discount": "25% OFF",
+    "imageFront": "images/rings/r24.jpg"
+  },
+  {
+    "id": 72,
+    "category": "rings",
+    "title": "Ring Design 25",
+    "brand": "MJ JEWELLERY",
+    "price": "86,452.60",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r25.jpg"
+  },
+  {
+    "id": 73,
+    "category": "rings",
+    "title": "Ring Design 26",
+    "brand": "MJ JEWELLERY",
+    "price": "36,964.85",
+    "discount": "25% OFF",
+    "imageFront": "images/rings/r26.jpg"
+  },
+  {
+    "id": 74,
+    "category": "rings",
+    "title": "Ring Design 27",
+    "brand": "MJ JEWELLERY",
+    "price": "68,292.74",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r27.jpg"
+  },
+  {
+    "id": 75,
+    "category": "rings",
+    "title": "Ring Design 28",
+    "brand": "MJ JEWELLERY",
+    "price": "78,946.42",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r28.jpg"
+  },
+  {
+    "id": 76,
+    "category": "rings",
+    "title": "Ring Design 29",
+    "brand": "MJ JEWELLERY",
+    "price": "76,836.71",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r29.jpg"
+  },
+  {
+    "id": 77,
+    "category": "rings",
+    "title": "Ring Design 30",
+    "brand": "MJ JEWELLERY",
+    "price": "88,336.60",
+    "discount": "25% OFF",
+    "imageFront": "images/rings/r30.jpg"
+  },
+  {
+    "id": 78,
+    "category": "rings",
+    "title": "Ring Design 31",
+    "brand": "MJ JEWELLERY",
+    "price": "78,540.96",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r31.jpg"
+  },
+  {
+    "id": 79,
+    "category": "rings",
+    "title": "Ring Design 32",
+    "brand": "MJ JEWELLERY",
+    "price": "8,580.86",
+    "discount": "30% OFF",
+    "imageFront": "images/rings/r32.jpg"
+  },
+  {
+    "id": 80,
+    "category": "rings",
+    "title": "Ring Design 33",
+    "brand": "MJ JEWELLERY",
+    "price": "31,875.21",
+    "discount": "25% OFF",
+    "imageFront": "images/rings/r33.jpg"
+  },
+  {
+    "id": 81,
+    "category": "rings",
+    "title": "Ring Design 34",
+    "brand": "MJ JEWELLERY",
+    "price": "85,848.75",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r34.jpg"
+  },
+  {
+    "id": 82,
+    "category": "rings",
+    "title": "Ring Design 35",
+    "brand": "MJ JEWELLERY",
+    "price": "11,403.47",
+    "discount": "10% OFF",
+    "imageFront": "images/rings/r35.jpg"
+  },
+  {
+    "id": 83,
+    "category": "rings",
+    "title": "Ring Design 36",
+    "brand": "MJ JEWELLERY",
+    "price": "19,387.01",
+    "discount": "30% OFF",
+    "imageFront": "images/rings/r36.jpg"
+  },
+  {
+    "id": 84,
+    "category": "rings",
+    "title": "Ring Design 37",
+    "brand": "MJ JEWELLERY",
+    "price": "19,464.41",
+    "discount": "20% OFF",
+    "imageFront": "images/rings/r37.jpg"
+  },
+  {
+    "id": 85,
+    "category": "rings",
+    "title": "Ring Design 38",
+    "brand": "MJ JEWELLERY",
+    "price": "54,163.37",
+    "discount": "25% OFF",
+    "imageFront": "images/rings/r38.jpg"
+  },
+  {
+    "id": 86,
+    "category": "rings",
+    "title": "Ring Design 39",
+    "brand": "MJ JEWELLERY",
+    "price": "70,899.97",
+    "discount": "30% OFF",
+    "imageFront": "images/rings/r39.jpg"
+  },
+  {
+    "id": 87,
+    "category": "rings",
+    "title": "Ring Design 40",
+    "brand": "MJ JEWELLERY",
+    "price": "79,297.12",
+    "discount": "10% OFF",
+    "imageFront": "images/rings/r40.jpg"
+  },
+  {
+    "id": 88,
+    "category": "rings",
+    "title": "Ring Design 41",
+    "brand": "MJ JEWELLERY",
+    "price": "90,564.45",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r41.jpg"
+  },
+  {
+    "id": 89,
+    "category": "rings",
+    "title": "Ring Design 42",
+    "brand": "MJ JEWELLERY",
+    "price": "35,122.89",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r42.jpg"
+  },
+  {
+    "id": 90,
+    "category": "rings",
+    "title": "Ring Design 43",
+    "brand": "MJ JEWELLERY",
+    "price": "79,986.26",
+    "discount": "30% OFF",
+    "imageFront": "images/rings/r43.jpg"
+  },
+  {
+    "id": 91,
+    "category": "rings",
+    "title": "Ring Design 44",
+    "brand": "MJ JEWELLERY",
+    "price": "80,449.14",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r44.jpg"
+  },
+  {
+    "id": 92,
+    "category": "rings",
+    "title": "Ring Design 45",
+    "brand": "MJ JEWELLERY",
+    "price": "17,975.99",
+    "discount": "10% OFF",
+    "imageFront": "images/rings/r45.jpg"
+  },
+  {
+    "id": 93,
+    "category": "rings",
+    "title": "Ring Design 46",
+    "brand": "MJ JEWELLERY",
+    "price": "85,844.86",
+    "discount": "35% OFF",
+    "imageFront": "images/rings/r46.jpg"
+  },
+  {
+    "id": 94,
+    "category": "rings",
+    "title": "Ring Design 47",
+    "brand": "MJ JEWELLERY",
+    "price": "45,205.19",
+    "discount": "30% OFF",
+    "imageFront": "images/rings/r47.jpg"
+  },
+  {
+    "id": 95,
+    "category": "bracelets",
+    "title": "Bracelet Design 1",
+    "brand": "MJ JEWELLERY",
+    "price": "45,206.52",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b1.jpg"
+  },
+  {
+    "id": 96,
+    "category": "bracelets",
+    "title": "Bracelet Design 2",
+    "brand": "MJ JEWELLERY",
+    "price": "48,336.33",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b2.jpg"
+  },
+  {
+    "id": 97,
+    "category": "bracelets",
+    "title": "Bracelet Design 3",
+    "brand": "MJ JEWELLERY",
+    "price": "87,669.22",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b3.jpg"
+  },
+  {
+    "id": 98,
+    "category": "bracelets",
+    "title": "Bracelet Design 4",
+    "brand": "MJ JEWELLERY",
+    "price": "21,578.19",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b4.jpg"
+  },
+  {
+    "id": 99,
+    "category": "bracelets",
+    "title": "Bracelet Design 5",
+    "brand": "MJ JEWELLERY",
+    "price": "62,644.07",
+    "discount": "25% OFF",
+    "imageFront": "images/bracelets/b5.jpg"
+  },
+  {
+    "id": 100,
+    "category": "bracelets",
+    "title": "Bracelet Design 6",
+    "brand": "MJ JEWELLERY",
+    "price": "12,612.86",
+    "discount": "10% OFF",
+    "imageFront": "images/bracelets/b6.jpg"
+  },
+  {
+    "id": 101,
+    "category": "bracelets",
+    "title": "Bracelet Design 7",
+    "brand": "MJ JEWELLERY",
+    "price": "13,338.12",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b7.jpg"
+  },
+  {
+    "id": 102,
+    "category": "bracelets",
+    "title": "Bracelet Design 8",
+    "brand": "MJ JEWELLERY",
+    "price": "90,388.00",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b8.jpg"
+  },
+  {
+    "id": 103,
+    "category": "bracelets",
+    "title": "Bracelet Design 9",
+    "brand": "MJ JEWELLERY",
+    "price": "11,468.01",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b9.jpg"
+  },
+  {
+    "id": 104,
+    "category": "bracelets",
+    "title": "Bracelet Design 10",
+    "brand": "MJ JEWELLERY",
+    "price": "23,724.96",
+    "discount": "20% OFF",
+    "imageFront": "images/bracelets/b10.jpg"
+  },
+  {
+    "id": 105,
+    "category": "bracelets",
+    "title": "Bracelet Design 11",
+    "brand": "MJ JEWELLERY",
+    "price": "59,126.21",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b11.jpg"
+  },
+  {
+    "id": 106,
+    "category": "bracelets",
+    "title": "Bracelet Design 12",
+    "brand": "MJ JEWELLERY",
+    "price": "66,219.70",
+    "discount": "20% OFF",
+    "imageFront": "images/bracelets/b12.jpg"
+  },
+  {
+    "id": 107,
+    "category": "bracelets",
+    "title": "Bracelet Design 13",
+    "brand": "MJ JEWELLERY",
+    "price": "77,829.95",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b13.jpg"
+  },
+  {
+    "id": 108,
+    "category": "bracelets",
+    "title": "Bracelet Design 14",
+    "brand": "MJ JEWELLERY",
+    "price": "36,794.45",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b14.jpg"
+  },
+  {
+    "id": 109,
+    "category": "bracelets",
+    "title": "Bracelet Design 15",
+    "brand": "MJ JEWELLERY",
+    "price": "88,364.12",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b15.jpg"
+  },
+  {
+    "id": 110,
+    "category": "bracelets",
+    "title": "Bracelet Design 16",
+    "brand": "MJ JEWELLERY",
+    "price": "63,450.98",
+    "discount": "20% OFF",
+    "imageFront": "images/bracelets/b16.jpg"
+  },
+  {
+    "id": 111,
+    "category": "bracelets",
+    "title": "Bracelet Design 17",
+    "brand": "MJ JEWELLERY",
+    "price": "27,950.47",
+    "discount": "10% OFF",
+    "imageFront": "images/bracelets/b17.jpg"
+  },
+  {
+    "id": 112,
+    "category": "bracelets",
+    "title": "Bracelet Design 18",
+    "brand": "MJ JEWELLERY",
+    "price": "75,371.51",
+    "discount": "20% OFF",
+    "imageFront": "images/bracelets/b18.jpg"
+  },
+  {
+    "id": 113,
+    "category": "bracelets",
+    "title": "Bracelet Design 19",
+    "brand": "MJ JEWELLERY",
+    "price": "66,410.10",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b19.jpg"
+  },
+  {
+    "id": 114,
+    "category": "bracelets",
+    "title": "Bracelet Design 20",
+    "brand": "MJ JEWELLERY",
+    "price": "27,378.31",
+    "discount": "20% OFF",
+    "imageFront": "images/bracelets/b20.jpg"
+  },
+  {
+    "id": 115,
+    "category": "bracelets",
+    "title": "Bracelet Design 21",
+    "brand": "MJ JEWELLERY",
+    "price": "17,613.12",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b21.jpg"
+  },
+  {
+    "id": 116,
+    "category": "bracelets",
+    "title": "Bracelet Design 22",
+    "brand": "MJ JEWELLERY",
+    "price": "13,324.25",
+    "discount": "20% OFF",
+    "imageFront": "images/bracelets/b22.jpg"
+  },
+  {
+    "id": 117,
+    "category": "bracelets",
+    "title": "Bracelet Design 23",
+    "brand": "MJ JEWELLERY",
+    "price": "47,191.90",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b23.jpg"
+  },
+  {
+    "id": 118,
+    "category": "bracelets",
+    "title": "Bracelet Design 24",
+    "brand": "MJ JEWELLERY",
+    "price": "58,297.45",
+    "discount": "25% OFF",
+    "imageFront": "images/bracelets/b24.jpg"
+  },
+  {
+    "id": 119,
+    "category": "bracelets",
+    "title": "Bracelet Design 25",
+    "brand": "MJ JEWELLERY",
+    "price": "18,229.40",
+    "discount": "25% OFF",
+    "imageFront": "images/bracelets/b25.jpg"
+  },
+  {
+    "id": 120,
+    "category": "bracelets",
+    "title": "Bracelet Design 26",
+    "brand": "MJ JEWELLERY",
+    "price": "52,026.57",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b26.jpg"
+  },
+  {
+    "id": 121,
+    "category": "bracelets",
+    "title": "Bracelet Design 27",
+    "brand": "MJ JEWELLERY",
+    "price": "27,292.90",
+    "discount": "20% OFF",
+    "imageFront": "images/bracelets/b27.jpg"
+  },
+  {
+    "id": 122,
+    "category": "bracelets",
+    "title": "Bracelet Design 28",
+    "brand": "MJ JEWELLERY",
+    "price": "83,277.27",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b28.jpg"
+  },
+  {
+    "id": 123,
+    "category": "bracelets",
+    "title": "Bracelet Design 29",
+    "brand": "MJ JEWELLERY",
+    "price": "63,666.31",
+    "discount": "25% OFF",
+    "imageFront": "images/bracelets/b29.jpg"
+  },
+  {
+    "id": 124,
+    "category": "bracelets",
+    "title": "Bracelet Design 30",
+    "brand": "MJ JEWELLERY",
+    "price": "48,389.64",
+    "discount": "20% OFF",
+    "imageFront": "images/bracelets/b30.jpg"
+  },
+  {
+    "id": 125,
+    "category": "bracelets",
+    "title": "Bracelet Design 31",
+    "brand": "MJ JEWELLERY",
+    "price": "62,130.55",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b31.jpg"
+  },
+  {
+    "id": 126,
+    "category": "bracelets",
+    "title": "Bracelet Design 32",
+    "brand": "MJ JEWELLERY",
+    "price": "50,893.54",
+    "discount": "35% OFF",
+    "imageFront": "images/bracelets/b32.jpg"
+  },
+  {
+    "id": 127,
+    "category": "bracelets",
+    "title": "Bracelet Design 33",
+    "brand": "MJ JEWELLERY",
+    "price": "45,642.98",
+    "discount": "25% OFF",
+    "imageFront": "images/bracelets/b33.jpg"
+  },
+  {
+    "id": 128,
+    "category": "bracelets",
+    "title": "Bracelet Design 34",
+    "brand": "MJ JEWELLERY",
+    "price": "15,946.34",
+    "discount": "25% OFF",
+    "imageFront": "images/bracelets/b34.jpg"
+  },
+  {
+    "id": 129,
+    "category": "bracelets",
+    "title": "Bracelet Design 35",
+    "brand": "MJ JEWELLERY",
+    "price": "63,149.77",
+    "discount": "10% OFF",
+    "imageFront": "images/bracelets/b35.jpg"
+  },
+  {
+    "id": 130,
+    "category": "bracelets",
+    "title": "Bracelet Design 36",
+    "brand": "MJ JEWELLERY",
+    "price": "82,052.39",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b36.jpg"
+  },
+  {
+    "id": 131,
+    "category": "bracelets",
+    "title": "Bracelet Design 37",
+    "brand": "MJ JEWELLERY",
+    "price": "91,103.53",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b37.jpg"
+  },
+  {
+    "id": 132,
+    "category": "bracelets",
+    "title": "Bracelet Design 38",
+    "brand": "MJ JEWELLERY",
+    "price": "87,483.20",
+    "discount": "20% OFF",
+    "imageFront": "images/bracelets/b38.jpg"
+  },
+  {
+    "id": 133,
+    "category": "bracelets",
+    "title": "Bracelet Design 39",
+    "brand": "MJ JEWELLERY",
+    "price": "24,995.10",
+    "discount": "35% OFF",
+    "imageFront": "images/bracelets/b39.jpg"
+  },
+  {
+    "id": 134,
+    "category": "bracelets",
+    "title": "Bracelet Design 40",
+    "brand": "MJ JEWELLERY",
+    "price": "62,211.78",
+    "discount": "25% OFF",
+    "imageFront": "images/bracelets/b40.jpg"
+  },
+  {
+    "id": 135,
+    "category": "bracelets",
+    "title": "Bracelet Design 41",
+    "brand": "MJ JEWELLERY",
+    "price": "9,784.22",
+    "discount": "25% OFF",
+    "imageFront": "images/bracelets/b41.jpg"
+  },
+  {
+    "id": 136,
+    "category": "bracelets",
+    "title": "Bracelet Design 42",
+    "brand": "MJ JEWELLERY",
+    "price": "79,633.36",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b42.jpg"
+  },
+  {
+    "id": 137,
+    "category": "bracelets",
+    "title": "Bracelet Design 43",
+    "brand": "MJ JEWELLERY",
+    "price": "20,760.32",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b43.jpg"
+  },
+  {
+    "id": 138,
+    "category": "bracelets",
+    "title": "Bracelet Design 44",
+    "brand": "MJ JEWELLERY",
+    "price": "86,266.14",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b44.jpg"
+  },
+  {
+    "id": 139,
+    "category": "bracelets",
+    "title": "Bracelet Design 45",
+    "brand": "MJ JEWELLERY",
+    "price": "40,197.15",
+    "discount": "30% OFF",
+    "imageFront": "images/bracelets/b45.jpg"
+  },
+  {
+    "id": 140,
+    "category": "bracelets",
+    "title": "Bracelet Design 46",
+    "brand": "MJ JEWELLERY",
+    "price": "83,289.02",
+    "discount": "15% OFF",
+    "imageFront": "images/bracelets/b46.jpg"
+  },
+  {
+    "id": 141,
+    "category": "bracelets",
+    "title": "Bracelet Design 47",
+    "brand": "MJ JEWELLERY",
+    "price": "26,201.50",
+    "discount": "35% OFF",
+    "imageFront": "images/bracelets/b47.jpg"
+  },
+  {
+    "id": 142,
+    "category": "necklaces",
+    "title": "Necklace Design 1",
+    "brand": "MJ JEWELLERY",
+    "price": "38,401.30",
+    "discount": "35% OFF",
+    "imageFront": "images/necklaces/n1.jpg"
+  },
+  {
+    "id": 143,
+    "category": "necklaces",
+    "title": "Necklace Design 2",
+    "brand": "MJ JEWELLERY",
+    "price": "90,957.53",
+    "discount": "10% OFF",
+    "imageFront": "images/necklaces/n2.jpg"
+  },
+  {
+    "id": 144,
+    "category": "necklaces",
+    "title": "Necklace Design 3",
+    "brand": "MJ JEWELLERY",
+    "price": "60,240.18",
+    "discount": "15% OFF",
+    "imageFront": "images/necklaces/n3.jpg"
+  },
+  {
+    "id": 145,
+    "category": "necklaces",
+    "title": "Necklace Design 4",
+    "brand": "MJ JEWELLERY",
+    "price": "60,817.35",
+    "discount": "15% OFF",
+    "imageFront": "images/necklaces/n4.jpg"
+  },
+  {
+    "id": 146,
+    "category": "necklaces",
+    "title": "Necklace Design 5",
+    "brand": "MJ JEWELLERY",
+    "price": "47,956.09",
+    "discount": "20% OFF",
+    "imageFront": "images/necklaces/n5.jpg"
+  },
+  {
+    "id": 147,
+    "category": "necklaces",
+    "title": "Necklace Design 6",
+    "brand": "MJ JEWELLERY",
+    "price": "41,414.04",
+    "discount": "35% OFF",
+    "imageFront": "images/necklaces/n6.jpg"
+  },
+  {
+    "id": 148,
+    "category": "necklaces",
+    "title": "Necklace Design 7",
+    "brand": "MJ JEWELLERY",
+    "price": "11,396.60",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n7.jpg"
+  },
+  {
+    "id": 149,
+    "category": "necklaces",
+    "title": "Necklace Design 8",
+    "brand": "MJ JEWELLERY",
+    "price": "63,967.23",
+    "discount": "35% OFF",
+    "imageFront": "images/necklaces/n8.jpg"
+  },
+  {
+    "id": 150,
+    "category": "necklaces",
+    "title": "Necklace Design 9",
+    "brand": "MJ JEWELLERY",
+    "price": "42,681.53",
+    "discount": "20% OFF",
+    "imageFront": "images/necklaces/n9.jpg"
+  },
+  {
+    "id": 151,
+    "category": "necklaces",
+    "title": "Necklace Design 10",
+    "brand": "MJ JEWELLERY",
+    "price": "87,375.03",
+    "discount": "15% OFF",
+    "imageFront": "images/necklaces/n10.jpg"
+  },
+  {
+    "id": 152,
+    "category": "necklaces",
+    "title": "Necklace Design 11",
+    "brand": "MJ JEWELLERY",
+    "price": "31,340.56",
+    "discount": "15% OFF",
+    "imageFront": "images/necklaces/n11.jpg"
+  },
+  {
+    "id": 153,
+    "category": "necklaces",
+    "title": "Necklace Design 12",
+    "brand": "MJ JEWELLERY",
+    "price": "15,334.61",
+    "discount": "20% OFF",
+    "imageFront": "images/necklaces/n12.jpg"
+  },
+  {
+    "id": 154,
+    "category": "necklaces",
+    "title": "Necklace Design 13",
+    "brand": "MJ JEWELLERY",
+    "price": "46,770.30",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n13.jpg"
+  },
+  {
+    "id": 155,
+    "category": "necklaces",
+    "title": "Necklace Design 14",
+    "brand": "MJ JEWELLERY",
+    "price": "71,454.43",
+    "discount": "20% OFF",
+    "imageFront": "images/necklaces/n14.jpg"
+  },
+  {
+    "id": 156,
+    "category": "necklaces",
+    "title": "Necklace Design 15",
+    "brand": "MJ JEWELLERY",
+    "price": "32,111.53",
+    "discount": "20% OFF",
+    "imageFront": "images/necklaces/n15.jpg"
+  },
+  {
+    "id": 157,
+    "category": "necklaces",
+    "title": "Necklace Design 16",
+    "brand": "MJ JEWELLERY",
+    "price": "48,110.36",
+    "discount": "25% OFF",
+    "imageFront": "images/necklaces/n16.jpg"
+  },
+  {
+    "id": 158,
+    "category": "necklaces",
+    "title": "Necklace Design 17",
+    "brand": "MJ JEWELLERY",
+    "price": "34,041.33",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n17.jpg"
+  },
+  {
+    "id": 159,
+    "category": "necklaces",
+    "title": "Necklace Design 18",
+    "brand": "MJ JEWELLERY",
+    "price": "22,673.01",
+    "discount": "25% OFF",
+    "imageFront": "images/necklaces/n18.jpg"
+  },
+  {
+    "id": 160,
+    "category": "necklaces",
+    "title": "Necklace Design 19",
+    "brand": "MJ JEWELLERY",
+    "price": "36,932.12",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n19.jpg"
+  },
+  {
+    "id": 161,
+    "category": "necklaces",
+    "title": "Necklace Design 20",
+    "brand": "MJ JEWELLERY",
+    "price": "87,767.47",
+    "discount": "10% OFF",
+    "imageFront": "images/necklaces/n20.jpg"
+  },
+  {
+    "id": 162,
+    "category": "necklaces",
+    "title": "Necklace Design 21",
+    "brand": "MJ JEWELLERY",
+    "price": "60,777.01",
+    "discount": "35% OFF",
+    "imageFront": "images/necklaces/n21.jpg"
+  },
+  {
+    "id": 163,
+    "category": "necklaces",
+    "title": "Necklace Design 22",
+    "brand": "MJ JEWELLERY",
+    "price": "73,712.52",
+    "discount": "25% OFF",
+    "imageFront": "images/necklaces/n22.jpg"
+  },
+  {
+    "id": 164,
+    "category": "necklaces",
+    "title": "Necklace Design 23",
+    "brand": "MJ JEWELLERY",
+    "price": "37,122.93",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n23.jpg"
+  },
+  {
+    "id": 165,
+    "category": "necklaces",
+    "title": "Necklace Design 24",
+    "brand": "MJ JEWELLERY",
+    "price": "50,337.92",
+    "discount": "25% OFF",
+    "imageFront": "images/necklaces/n24.jpg"
+  },
+  {
+    "id": 166,
+    "category": "necklaces",
+    "title": "Necklace Design 25",
+    "brand": "MJ JEWELLERY",
+    "price": "11,927.04",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n25.jpg"
+  },
+  {
+    "id": 167,
+    "category": "necklaces",
+    "title": "Necklace Design 26",
+    "brand": "MJ JEWELLERY",
+    "price": "43,783.07",
+    "discount": "15% OFF",
+    "imageFront": "images/necklaces/n26.jpg"
+  },
+  {
+    "id": 168,
+    "category": "necklaces",
+    "title": "Necklace Design 27",
+    "brand": "MJ JEWELLERY",
+    "price": "13,913.22",
+    "discount": "20% OFF",
+    "imageFront": "images/necklaces/n27.jpg"
+  },
+  {
+    "id": 169,
+    "category": "necklaces",
+    "title": "Necklace Design 28",
+    "brand": "MJ JEWELLERY",
+    "price": "42,337.37",
+    "discount": "20% OFF",
+    "imageFront": "images/necklaces/n28.jpg"
+  },
+  {
+    "id": 170,
+    "category": "necklaces",
+    "title": "Necklace Design 29",
+    "brand": "MJ JEWELLERY",
+    "price": "88,323.78",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n29.jpg"
+  },
+  {
+    "id": 171,
+    "category": "necklaces",
+    "title": "Necklace Design 30",
+    "brand": "MJ JEWELLERY",
+    "price": "50,419.00",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n30.jpg"
+  },
+  {
+    "id": 172,
+    "category": "necklaces",
+    "title": "Necklace Design 31",
+    "brand": "MJ JEWELLERY",
+    "price": "63,562.36",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n31.jpg"
+  },
+  {
+    "id": 173,
+    "category": "necklaces",
+    "title": "Necklace Design 32",
+    "brand": "MJ JEWELLERY",
+    "price": "63,582.74",
+    "discount": "15% OFF",
+    "imageFront": "images/necklaces/n32.jpg"
+  },
+  {
+    "id": 174,
+    "category": "necklaces",
+    "title": "Necklace Design 33",
+    "brand": "MJ JEWELLERY",
+    "price": "38,179.27",
+    "discount": "25% OFF",
+    "imageFront": "images/necklaces/n33.jpg"
+  },
+  {
+    "id": 175,
+    "category": "necklaces",
+    "title": "Necklace Design 34",
+    "brand": "MJ JEWELLERY",
+    "price": "67,922.12",
+    "discount": "15% OFF",
+    "imageFront": "images/necklaces/n34.jpg"
+  },
+  {
+    "id": 176,
+    "category": "necklaces",
+    "title": "Necklace Design 35",
+    "brand": "MJ JEWELLERY",
+    "price": "56,416.00",
+    "discount": "20% OFF",
+    "imageFront": "images/necklaces/n35.jpg"
+  },
+  {
+    "id": 177,
+    "category": "necklaces",
+    "title": "Necklace Design 36",
+    "brand": "MJ JEWELLERY",
+    "price": "60,171.93",
+    "discount": "10% OFF",
+    "imageFront": "images/necklaces/n36.jpg"
+  },
+  {
+    "id": 178,
+    "category": "necklaces",
+    "title": "Necklace Design 37",
+    "brand": "MJ JEWELLERY",
+    "price": "94,346.91",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n37.jpg"
+  },
+  {
+    "id": 179,
+    "category": "necklaces",
+    "title": "Necklace Design 38",
+    "brand": "MJ JEWELLERY",
+    "price": "34,030.96",
+    "discount": "20% OFF",
+    "imageFront": "images/necklaces/n38.jpg"
+  },
+  {
+    "id": 180,
+    "category": "necklaces",
+    "title": "Necklace Design 39",
+    "brand": "MJ JEWELLERY",
+    "price": "48,413.67",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n39.jpg"
+  },
+  {
+    "id": 181,
+    "category": "necklaces",
+    "title": "Necklace Design 40",
+    "brand": "MJ JEWELLERY",
+    "price": "52,402.60",
+    "discount": "25% OFF",
+    "imageFront": "images/necklaces/n40.jpg"
+  },
+  {
+    "id": 182,
+    "category": "necklaces",
+    "title": "Necklace Design 41",
+    "brand": "MJ JEWELLERY",
+    "price": "47,519.21",
+    "discount": "35% OFF",
+    "imageFront": "images/necklaces/n41.jpg"
+  },
+  {
+    "id": 183,
+    "category": "necklaces",
+    "title": "Necklace Design 42",
+    "brand": "MJ JEWELLERY",
+    "price": "82,427.09",
+    "discount": "10% OFF",
+    "imageFront": "images/necklaces/n42.jpg"
+  },
+  {
+    "id": 184,
+    "category": "necklaces",
+    "title": "Necklace Design 43",
+    "brand": "MJ JEWELLERY",
+    "price": "87,591.00",
+    "discount": "25% OFF",
+    "imageFront": "images/necklaces/n43.jpg"
+  },
+  {
+    "id": 185,
+    "category": "necklaces",
+    "title": "Necklace Design 44",
+    "brand": "MJ JEWELLERY",
+    "price": "56,532.36",
+    "discount": "25% OFF",
+    "imageFront": "images/necklaces/n44.jpg"
+  },
+  {
+    "id": 186,
+    "category": "necklaces",
+    "title": "Necklace Design 45",
+    "brand": "MJ JEWELLERY",
+    "price": "71,122.64",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n45.jpg"
+  },
+  {
+    "id": 187,
+    "category": "necklaces",
+    "title": "Necklace Design 46",
+    "brand": "MJ JEWELLERY",
+    "price": "90,722.84",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n46.jpg"
+  },
+  {
+    "id": 188,
+    "category": "necklaces",
+    "title": "Necklace Design 47",
+    "brand": "MJ JEWELLERY",
+    "price": "76,359.33",
+    "discount": "30% OFF",
+    "imageFront": "images/necklaces/n47.jpg"
   }
 ]

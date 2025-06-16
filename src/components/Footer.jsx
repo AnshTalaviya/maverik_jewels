@@ -54,7 +54,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Quick Links */}
+                {/* Quick Links
                 <div>
                     <h3 className="text-lg font-semibold mb-2 relative inline-block after:block after:h-1 after:bg-pink-300 after:w-10 after:mt-1">
                         Quick links
@@ -65,7 +65,7 @@ const Footer = () => {
                         <li><Link to='/' className="hover:text-pink-500">Terms of service</Link></li>
                         <li><Link to='/' className="hover:text-pink-500">Shipping policy</Link></li>
                     </ul>
-                </div>
+                </div> */}
             </div>
 
             {/* <div className="border-t pt-5 pb-10 text-center text-xs text-gray-500">

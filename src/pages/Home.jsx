@@ -66,9 +66,9 @@ const Home = () => {
       <div>
         <InstagramContent/>
       </div>
-      <div>
+      {/* <div>
         <ReviewSlider/>
-      </div>
+      </div> */}
 
     </div>
   )

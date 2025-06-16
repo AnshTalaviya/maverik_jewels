@@ -1,14 +1,9 @@
 import React, { useState, useEffect } from "react";
 import logo from '../../public/images/Maverickk_Jewels.png';
 import { ChevronDownIcon } from '@heroicons/react/24/solid';
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import {
-    FiSearch,
-    FiUser,
-    FiHeart,
-    FiShoppingCart,
-    FiMenu,
-    FiX,
+    FiSearch, FiUser, FiHeart, FiShoppingCart, FiMenu, FiX,
 } from "react-icons/fi";
 
 const Header = () => {
@@ -23,16 +18,14 @@ const Header = () => {
     const [filteredCategories, setFilteredCategories] = useState([]);
 
     const navigate = useNavigate();
-
+    const location = useLocation();
 
     const toggleDrawer = () => setIsDrawerOpen(!isDrawerOpen);
     const openSearch = () => setIsSearchOpen(true);
     const closeSearch = () => {
-
         setIsSearchOpen(false);
         setSearchTerm("");
-
-    }
+    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -42,22 +35,18 @@ const Header = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-
     useEffect(() => {
         fetch('/jewellers.json')
             .then(res => res.json())
             .then(data => setAllProducts(data))
             .catch(err => console.error("Failed to fetch product data", err));
     }, []);
+
     useEffect(() => {
         const term = searchTerm.toLowerCase();
-
         const productMatches = allProducts.filter(product =>
-            // product.name.toLowerCase().includes(term) ||  // <-- this line
             product.category.toLowerCase().includes(term)
         );
-
-
         const categoryMatches = [
             ...new Set(
                 allProducts
@@ -67,12 +56,12 @@ const Header = () => {
                     .map(p => p.category)
             )
         ];
-
         setFilteredProducts(productMatches.slice(0, 10));
         setFilteredCategories(categoryMatches);
     }, [searchTerm, allProducts]);
 
-
+    const isActive = (path) => location.pathname === path;
+    const isCollection = () => location.pathname.startsWith('/collection');
 
     return (
         <>
@@ -87,13 +76,26 @@ const Header = () => {
                         </div>
 
                         <nav className="hidden md:flex space-x-8 items-center">
-                            <Link to="/" className="hover:text-dark-800 hover:font-bold hover:underline">Home</Link>
-                            <Link to="/about" className="hover:text-dark-500 hover:font-bold hover:underline">About</Link>
+                            <Link
+                                to="/"
+                                className={`px-3 py-1 rounded-md transition ${isActive("/") ? "bg-gray-100 font-semibold" : "hover:bg-gray-50"}`}
+                            >
+                                Home
+                            </Link>
+
+                            <Link
+                                to="/about"
+                                className={`px-3 py-1 rounded-md transition ${isActive("/about") ? "bg-gray-100 font-semibold" : "hover:bg-gray-50"}`}
+                            >
+                                About
+                            </Link>
 
                             <div className="relative group"
                                 onMouseEnter={() => setIsProductOpen(true)}
                                 onMouseLeave={() => setIsProductOpen(false)}>
-                                <button className="flex items-center gap-1 hover:text-dark-500 py-2 hover:underline">
+                                <button
+                                    className={`flex items-center gap-1 px-3 py-1 rounded-md transition ${isCollection() ? "bg-gray-100 font-semibold" : "hover:bg-gray-50"}`}
+                                >
                                     Product
                                     <ChevronDownIcon className="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" />
                                 </button>
@@ -107,7 +109,12 @@ const Header = () => {
                                 )}
                             </div>
 
-                            <Link to="/contact" className="hover:text-dark-500 hover:font-bold hover:underline">Contact</Link>
+                            <Link
+                                to="/contact"
+                                className={`px-3 py-1 rounded-md transition ${isActive("/contact") ? "bg-gray-100 font-semibold" : "hover:bg-gray-50"}`}
+                            >
+                                Contact
+                            </Link>
                         </nav>
 
                         <div className="flex items-center space-x-4">
@@ -141,7 +148,6 @@ const Header = () => {
                 </header>
             )}
 
-            {/* Search Modal */}
             {isSearchOpen && (
                 <div className="fixed inset-0 bg-white z-50 overflow-y-auto">
                     <div className="px-4 py-6 max-w-4xl mx-auto">
@@ -168,7 +174,6 @@ const Header = () => {
                         </div>
 
                         <div className="grid grid-cols-3 md:grid-cols-6 gap-4 px-6 py-4">
-                            {/* Suggestions */}
                             <div className="col-span-2 space-y-2">
                                 {filteredCategories.map((cat, index) => (
                                     <div
@@ -181,7 +186,6 @@ const Header = () => {
                                 ))}
                             </div>
 
-                            {/* Product Results */}
                             <div className="col-span-4 space-y-3">
                                 {filteredProducts.map(product => (
                                     <div

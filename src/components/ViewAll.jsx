@@ -2,10 +2,7 @@ import React from 'react'
 // import { useNavigate } from 'react-router-dom'
 
 const ViewAll = ({ onClick }) => {
-    // const navigate = useNavigate();
-    // const handleViewAllClick = () => {
-    //     navigate("/viewAllJewellary");
-    // };
+  
 
 
     return (
